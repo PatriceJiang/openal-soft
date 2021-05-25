@@ -42,6 +42,11 @@
 #include "threads.h"
 
 #include <SLES/OpenSLES.h>
+#include <SLES/OpenSLES_Platform.h>
+
+#define SL_OHOS_PCM_REPRESENTATION_SIGNED_INT       ((SLuint32) 0x00000001)
+#define SL_OHOS_PCM_REPRESENTATION_UNSIGNED_INT     ((SLuint32) 0x00000002)
+#define SL_OHOS_PCM_REPRESENTATION_FLOAT            ((SLuint32) 0x00000003)
 
 
 namespace {
@@ -81,7 +86,8 @@ constexpr SLuint32 GetChannelMask(DevFmtChannels chans) noexcept
     return 0;
 }
 
-#ifdef SL_ANDROID_DATAFORMAT_PCM_EX
+// #ifdef SL_ANDROID_DATAFORMAT_PCM_EX
+#if 0
 constexpr SLuint32 GetTypeRepresentation(DevFmtType type) noexcept
 {
     switch(type)
@@ -89,13 +95,13 @@ constexpr SLuint32 GetTypeRepresentation(DevFmtType type) noexcept
     case DevFmtUByte:
     case DevFmtUShort:
     case DevFmtUInt:
-        return SL_ANDROID_PCM_REPRESENTATION_UNSIGNED_INT;
+        return SL_OHOS_PCM_REPRESENTATION_UNSIGNED_INT;
     case DevFmtByte:
     case DevFmtShort:
     case DevFmtInt:
-        return SL_ANDROID_PCM_REPRESENTATION_SIGNED_INT;
+        return SL_OHOS_PCM_REPRESENTATION_SIGNED_INT;
     case DevFmtFloat:
-        return SL_ANDROID_PCM_REPRESENTATION_FLOAT;
+        return SL_OHOS_PCM_REPRESENTATION_FLOAT;
     }
     return 0;
 }
@@ -361,6 +367,10 @@ void OpenSLPlayback::open(const char *name)
 
 bool OpenSLPlayback::reset()
 {
+    
+    // __asm__("BKPT");
+
+
     SLresult result;
 
     if(mBufferQueueObj)
@@ -444,8 +454,8 @@ bool OpenSLPlayback::reset()
     mFrameSize = mDevice->frameSizeFromFmt();
 
 
-    const std::array<SLInterfaceID,1> ids{{ SL_IID_BUFFERQUEUE}};
-    const std::array<SLboolean,1> reqs{{ SL_BOOLEAN_TRUE}};
+    const std::array<SLInterfaceID,2> ids{{ SL_IID_BUFFERQUEUE,/* SL_IID_ANDROIDCONFIGURATION */}};
+    const std::array<SLboolean,2> reqs{{ SL_BOOLEAN_TRUE, SL_BOOLEAN_FALSE }};
 
     SLDataLocator_OutputMix loc_outmix{};
     loc_outmix.locatorType = SL_DATALOCATOR_OUTPUTMIX;
@@ -460,16 +470,17 @@ bool OpenSLPlayback::reset()
     loc_bufq.numBuffers = mDevice->BufferSize / mDevice->UpdateSize;
 
     SLDataSource audioSrc{};
-#ifdef SL_ANDROID_DATAFORMAT_PCM_EX
-    SLAndroidDataFormat_PCM_EX format_pcm_ex{};
-    format_pcm_ex.formatType = SL_ANDROID_DATAFORMAT_PCM_EX;
+// #ifdef SL_ANDROID_DATAFORMAT_PCM_EX
+#if 1
+    SLDataFormat_PCM format_pcm_ex{};
+    format_pcm_ex.formatType = SL_DATAFORMAT_PCM;
     format_pcm_ex.numChannels = mDevice->channelsFromFmt();
-    format_pcm_ex.sampleRate = mDevice->Frequency * 1000;
+    format_pcm_ex.samplesPerSec = mDevice->Frequency * 1000;
     format_pcm_ex.bitsPerSample = mDevice->bytesFromFmt() * 8;
     format_pcm_ex.containerSize = format_pcm_ex.bitsPerSample;
     format_pcm_ex.channelMask = GetChannelMask(mDevice->FmtChans);
     format_pcm_ex.endianness = GetByteOrderEndianness();
-    format_pcm_ex.representation = GetTypeRepresentation(mDevice->FmtType);
+    // format_pcm_ex.representation = GetTypeRepresentation(mDevice->FmtType);
 
     audioSrc.pLocator = &loc_bufq;
     audioSrc.pFormat = &format_pcm_ex;
@@ -504,11 +515,30 @@ bool OpenSLPlayback::reset()
         audioSrc.pLocator = &loc_bufq;
         audioSrc.pFormat = &format_pcm;
 
+
+        /// __asm__("BKPT");
+
         result = VCALL(mEngine,CreateAudioPlayer)(&mBufferQueueObj, &audioSrc, &audioSnk, ids.size(),
             ids.data(), reqs.data());
         PRINTERR(result, "engine->CreateAudioPlayer");
     }
+    if(SL_RESULT_SUCCESS == result)
+    {
+        /* Set the stream type to "media" (games, music, etc), if possible. */
+        // SLAndroidConfigurationItf config;
+        // result = VCALL(mBufferQueueObj,GetInterface)(SL_IID_ANDROIDCONFIGURATION, &config);
+        // PRINTERR(result, "bufferQueue->GetInterface SL_IID_ANDROIDCONFIGURATION");
+        // if(SL_RESULT_SUCCESS == result)
+        // {
+        //     SLint32 streamType = SL_ANDROID_STREAM_MEDIA;
+        //     result = VCALL(config,SetConfiguration)(SL_ANDROID_KEY_STREAM_TYPE, &streamType,
+        //         sizeof(streamType));
+        //     PRINTERR(result, "config->SetConfiguration");
+        // }
 
+        /* Clear any error since this was optional. */
+        result = SL_RESULT_SUCCESS;
+    }
     if(SL_RESULT_SUCCESS == result)
     {
         result = VCALL(mBufferQueueObj,Realize)(SL_BOOLEAN_FALSE);
@@ -537,6 +567,8 @@ void OpenSLPlayback::start()
     mRing->reset();
 
     SLBufferQueueItf bufferQueue;
+    // SLBufferQueueState bufferQueue;
+
     SLresult result{VCALL(mBufferQueueObj,GetInterface)(SL_IID_BUFFERQUEUE,
         &bufferQueue)};
     PRINTERR(result, "bufferQueue->GetInterface");
@@ -591,6 +623,7 @@ void OpenSLPlayback::stop()
     }
     if(SL_RESULT_SUCCESS == result)
     {
+        // SLAndroidSimpleBufferQueueState state;
         SLBufferQueueState state;
         do {
             std::this_thread::yield();
@@ -670,8 +703,6 @@ void OpenSLCapture::open(const char* name)
         throw al::backend_exception{al::backend_error::NoDevice, "Device name \"%s\" not found",
             name};
 
-
-
     SLresult result{slCreateEngine(&mEngineObj, 0, nullptr, 0, nullptr, nullptr)};
     PRINTERR(result, "slCreateEngine");
     if(SL_RESULT_SUCCESS == result)
@@ -699,30 +730,10 @@ void OpenSLCapture::open(const char* name)
         mDevice->UpdateSize = update_len;
         mDevice->BufferSize = static_cast<uint>(mRing->writeSpace() * update_len);
     }
-
-    #if 1
-    {
-        /* Set the stream type to "media" (games, music, etc), if possible. */
-        SLEngineCapabilitiesItf config;
-        result = VCALL(mEngineObj,GetInterface)(SL_IID_ENGINECAPABILITIES, &config);
-        PRINTERR(result, "bufferQueue->GetInterface SL_IID_ENGINECAPABILITIES");
-        if(SL_RESULT_SUCCESS == result)
-        {
-            SLuint16 profilesSupported;
-            result = VCALL(config, QuerySupportedProfiles)(&profilesSupported);
-            PRINTERR(result, "config->SetConfiguration");
-        }
-
-        /* Clear any error since this was optional. */
-        result = SL_RESULT_SUCCESS;
-    }
-    #endif
-
-
     if(SL_RESULT_SUCCESS == result)
     {
         const std::array<SLInterfaceID,1> ids{{ SL_IID_BUFFERQUEUE}};
-        const std::array<SLboolean,2> reqs{{ SL_BOOLEAN_TRUE}};
+        const std::array<SLboolean,2> reqs{{ SL_BOOLEAN_TRUE, SL_BOOLEAN_FALSE }};
 
         SLDataLocator_IODevice loc_dev{};
         loc_dev.locatorType = SL_DATALOCATOR_IODEVICE;
@@ -735,10 +746,29 @@ void OpenSLCapture::open(const char* name)
         audioSrc.pFormat = nullptr;
 
         SLDataLocator_BufferQueue loc_bq{};
+        // SLDataLocator_AndroidSimpleBufferQueue loc_bq{};
         loc_bq.locatorType = SL_DATALOCATOR_BUFFERQUEUE;
         loc_bq.numBuffers = mDevice->BufferSize / mDevice->UpdateSize;
 
         SLDataSink audioSnk{};
+// #ifdef SL_ANDROID_DATAFORMAT_PCM_EX
+#if 1
+        SLDataFormat_PCM format_pcm_ex{};
+        format_pcm_ex.formatType = SL_DATAFORMAT_PCM;
+        format_pcm_ex.numChannels = mDevice->channelsFromFmt();
+        format_pcm_ex.samplesPerSec = mDevice->Frequency * 1000;
+        format_pcm_ex.bitsPerSample = mDevice->bytesFromFmt() * 8;
+        format_pcm_ex.containerSize = format_pcm_ex.bitsPerSample;
+        format_pcm_ex.channelMask = GetChannelMask(mDevice->FmtChans);
+        format_pcm_ex.endianness = GetByteOrderEndianness();
+        // format_pcm_ex.representation = GetTypeRepresentation(mDevice->FmtType);
+
+        audioSnk.pLocator = &loc_bq;
+        audioSnk.pFormat = &format_pcm_ex;
+        result = VCALL(mEngine,CreateAudioRecorder)(&mRecordObj, &audioSrc, &audioSnk,
+            ids.size(), ids.data(), reqs.data());
+        if(SL_RESULT_SUCCESS != result)
+#endif
         {
             /* Fallback to SLDataFormat_PCM only if it supports the desired
              * sample type.
@@ -762,6 +792,23 @@ void OpenSLCapture::open(const char* name)
             }
             PRINTERR(result, "engine->CreateAudioRecorder");
         }
+    }
+    if(SL_RESULT_SUCCESS == result)
+    {
+        // /* Set the record preset to "generic", if possible. */
+        // SLAndroidConfigurationItf config;
+        // result = VCALL(mRecordObj,GetInterface)(SL_IID_ANDROIDCONFIGURATION, &config);
+        // PRINTERR(result, "recordObj->GetInterface SL_IID_ANDROIDCONFIGURATION");
+        // if(SL_RESULT_SUCCESS == result)
+        // {
+        //     SLuint32 preset = SL_ANDROID_RECORDING_PRESET_GENERIC;
+        //     result = VCALL(config,SetConfiguration)(SL_ANDROID_KEY_RECORDING_PRESET, &preset,
+        //         sizeof(preset));
+        //     PRINTERR(result, "config->SetConfiguration");
+        // }
+
+        // /* Clear any error since this was optional. */
+        result = SL_RESULT_SUCCESS;
     }
     if(SL_RESULT_SUCCESS == result)
     {

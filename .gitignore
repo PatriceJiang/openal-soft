@@ -1,4 +1,5 @@
 build*/
+.clangd/*
 winbuild
 win64build
 
@@ -7,3 +8,5 @@ win64build
 
 ## qt-creator
 CMakeLists.txt.user*
+.cache/*
+install-ohos/*

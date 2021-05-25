@@ -1,0 +1,482 @@
+[
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\common\\alcomplex.cpp.obj -c D:\\Github\\openal-soft\\common\\alcomplex.cpp",
+  "file": "D:/Github/openal-soft/common/alcomplex.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\common\\alfstream.cpp.obj -c D:\\Github\\openal-soft\\common\\alfstream.cpp",
+  "file": "D:/Github/openal-soft/common/alfstream.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\common\\almalloc.cpp.obj -c D:\\Github\\openal-soft\\common\\almalloc.cpp",
+  "file": "D:/Github/openal-soft/common/almalloc.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\common\\alstring.cpp.obj -c D:\\Github\\openal-soft\\common\\alstring.cpp",
+  "file": "D:/Github/openal-soft/common/alstring.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\common\\dynload.cpp.obj -c D:\\Github\\openal-soft\\common\\dynload.cpp",
+  "file": "D:/Github/openal-soft/common/dynload.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\common\\polyphase_resampler.cpp.obj -c D:\\Github\\openal-soft\\common\\polyphase_resampler.cpp",
+  "file": "D:/Github/openal-soft/common/polyphase_resampler.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\common\\ringbuffer.cpp.obj -c D:\\Github\\openal-soft\\common\\ringbuffer.cpp",
+  "file": "D:/Github/openal-soft/common/ringbuffer.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\common\\strutils.cpp.obj -c D:\\Github\\openal-soft\\common\\strutils.cpp",
+  "file": "D:/Github/openal-soft/common/strutils.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\common\\threads.cpp.obj -c D:\\Github\\openal-soft\\common\\threads.cpp",
+  "file": "D:/Github/openal-soft/common/threads.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\auxeffectslot.cpp.obj -c D:\\Github\\openal-soft\\al\\auxeffectslot.cpp",
+  "file": "D:/Github/openal-soft/al/auxeffectslot.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\buffer.cpp.obj -c D:\\Github\\openal-soft\\al\\buffer.cpp",
+  "file": "D:/Github/openal-soft/al/buffer.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effect.cpp.obj -c D:\\Github\\openal-soft\\al\\effect.cpp",
+  "file": "D:/Github/openal-soft/al/effect.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\autowah.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\autowah.cpp",
+  "file": "D:/Github/openal-soft/al/effects/autowah.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\chorus.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\chorus.cpp",
+  "file": "D:/Github/openal-soft/al/effects/chorus.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\compressor.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\compressor.cpp",
+  "file": "D:/Github/openal-soft/al/effects/compressor.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\convolution.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\convolution.cpp",
+  "file": "D:/Github/openal-soft/al/effects/convolution.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\dedicated.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\dedicated.cpp",
+  "file": "D:/Github/openal-soft/al/effects/dedicated.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\distortion.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\distortion.cpp",
+  "file": "D:/Github/openal-soft/al/effects/distortion.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\echo.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\echo.cpp",
+  "file": "D:/Github/openal-soft/al/effects/echo.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\equalizer.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\equalizer.cpp",
+  "file": "D:/Github/openal-soft/al/effects/equalizer.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\fshifter.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\fshifter.cpp",
+  "file": "D:/Github/openal-soft/al/effects/fshifter.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\modulator.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\modulator.cpp",
+  "file": "D:/Github/openal-soft/al/effects/modulator.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\null.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\null.cpp",
+  "file": "D:/Github/openal-soft/al/effects/null.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\pshifter.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\pshifter.cpp",
+  "file": "D:/Github/openal-soft/al/effects/pshifter.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\reverb.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\reverb.cpp",
+  "file": "D:/Github/openal-soft/al/effects/reverb.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\effects\\vmorpher.cpp.obj -c D:\\Github\\openal-soft\\al\\effects\\vmorpher.cpp",
+  "file": "D:/Github/openal-soft/al/effects/vmorpher.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\error.cpp.obj -c D:\\Github\\openal-soft\\al\\error.cpp",
+  "file": "D:/Github/openal-soft/al/error.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\event.cpp.obj -c D:\\Github\\openal-soft\\al\\event.cpp",
+  "file": "D:/Github/openal-soft/al/event.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\extension.cpp.obj -c D:\\Github\\openal-soft\\al\\extension.cpp",
+  "file": "D:/Github/openal-soft/al/extension.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\filter.cpp.obj -c D:\\Github\\openal-soft\\al\\filter.cpp",
+  "file": "D:/Github/openal-soft/al/filter.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\listener.cpp.obj -c D:\\Github\\openal-soft\\al\\listener.cpp",
+  "file": "D:/Github/openal-soft/al/listener.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\source.cpp.obj -c D:\\Github\\openal-soft\\al\\source.cpp",
+  "file": "D:/Github/openal-soft/al/source.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\al\\state.cpp.obj -c D:\\Github\\openal-soft\\al\\state.cpp",
+  "file": "D:/Github/openal-soft/al/state.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\alc.cpp.obj -c D:\\Github\\openal-soft\\alc\\alc.cpp",
+  "file": "D:/Github/openal-soft/alc/alc.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\alu.cpp.obj -c D:\\Github\\openal-soft\\alc\\alu.cpp",
+  "file": "D:/Github/openal-soft/alc/alu.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\alconfig.cpp.obj -c D:\\Github\\openal-soft\\alc\\alconfig.cpp",
+  "file": "D:/Github/openal-soft/alc/alconfig.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\context.cpp.obj -c D:\\Github\\openal-soft\\alc\\context.cpp",
+  "file": "D:/Github/openal-soft/alc/context.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\device.cpp.obj -c D:\\Github\\openal-soft\\alc\\device.cpp",
+  "file": "D:/Github/openal-soft/alc/device.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effectslot.cpp.obj -c D:\\Github\\openal-soft\\alc\\effectslot.cpp",
+  "file": "D:/Github/openal-soft/alc/effectslot.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\autowah.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\autowah.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/autowah.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\chorus.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\chorus.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/chorus.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\compressor.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\compressor.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/compressor.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\convolution.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\convolution.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/convolution.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\dedicated.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\dedicated.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/dedicated.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\distortion.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\distortion.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/distortion.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\echo.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\echo.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/echo.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\equalizer.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\equalizer.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/equalizer.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\fshifter.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\fshifter.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/fshifter.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\modulator.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\modulator.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/modulator.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\null.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\null.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/null.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\pshifter.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\pshifter.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/pshifter.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\reverb.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\reverb.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/reverb.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\effects\\vmorpher.cpp.obj -c D:\\Github\\openal-soft\\alc\\effects\\vmorpher.cpp",
+  "file": "D:/Github/openal-soft/alc/effects/vmorpher.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\panning.cpp.obj -c D:\\Github\\openal-soft\\alc\\panning.cpp",
+  "file": "D:/Github/openal-soft/alc/panning.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\backends\\base.cpp.obj -c D:\\Github\\openal-soft\\alc\\backends\\base.cpp",
+  "file": "D:/Github/openal-soft/alc/backends/base.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\backends\\loopback.cpp.obj -c D:\\Github\\openal-soft\\alc\\backends\\loopback.cpp",
+  "file": "D:/Github/openal-soft/alc/backends/loopback.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\backends\\null.cpp.obj -c D:\\Github\\openal-soft\\alc\\backends\\null.cpp",
+  "file": "D:/Github/openal-soft/alc/backends/null.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\backends\\opensl.cpp.obj -c D:\\Github\\openal-soft\\alc\\backends\\opensl.cpp",
+  "file": "D:/Github/openal-soft/alc/backends/opensl.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\alc\\backends\\wave.cpp.obj -c D:\\Github\\openal-soft\\alc\\backends\\wave.cpp",
+  "file": "D:/Github/openal-soft/alc/backends/wave.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\ambdec.cpp.obj -c D:\\Github\\openal-soft\\core\\ambdec.cpp",
+  "file": "D:/Github/openal-soft/core/ambdec.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\ambidefs.cpp.obj -c D:\\Github\\openal-soft\\core\\ambidefs.cpp",
+  "file": "D:/Github/openal-soft/core/ambidefs.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\bformatdec.cpp.obj -c D:\\Github\\openal-soft\\core\\bformatdec.cpp",
+  "file": "D:/Github/openal-soft/core/bformatdec.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\bs2b.cpp.obj -c D:\\Github\\openal-soft\\core\\bs2b.cpp",
+  "file": "D:/Github/openal-soft/core/bs2b.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\bsinc_tables.cpp.obj -c D:\\Github\\openal-soft\\core\\bsinc_tables.cpp",
+  "file": "D:/Github/openal-soft/core/bsinc_tables.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\buffer_storage.cpp.obj -c D:\\Github\\openal-soft\\core\\buffer_storage.cpp",
+  "file": "D:/Github/openal-soft/core/buffer_storage.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\context.cpp.obj -c D:\\Github\\openal-soft\\core\\context.cpp",
+  "file": "D:/Github/openal-soft/core/context.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\converter.cpp.obj -c D:\\Github\\openal-soft\\core\\converter.cpp",
+  "file": "D:/Github/openal-soft/core/converter.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\cpu_caps.cpp.obj -c D:\\Github\\openal-soft\\core\\cpu_caps.cpp",
+  "file": "D:/Github/openal-soft/core/cpu_caps.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\devformat.cpp.obj -c D:\\Github\\openal-soft\\core\\devformat.cpp",
+  "file": "D:/Github/openal-soft/core/devformat.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\device.cpp.obj -c D:\\Github\\openal-soft\\core\\device.cpp",
+  "file": "D:/Github/openal-soft/core/device.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\except.cpp.obj -c D:\\Github\\openal-soft\\core\\except.cpp",
+  "file": "D:/Github/openal-soft/core/except.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\filters\\biquad.cpp.obj -c D:\\Github\\openal-soft\\core\\filters\\biquad.cpp",
+  "file": "D:/Github/openal-soft/core/filters/biquad.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\filters\\nfc.cpp.obj -c D:\\Github\\openal-soft\\core\\filters\\nfc.cpp",
+  "file": "D:/Github/openal-soft/core/filters/nfc.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\filters\\splitter.cpp.obj -c D:\\Github\\openal-soft\\core\\filters\\splitter.cpp",
+  "file": "D:/Github/openal-soft/core/filters/splitter.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\fmt_traits.cpp.obj -c D:\\Github\\openal-soft\\core\\fmt_traits.cpp",
+  "file": "D:/Github/openal-soft/core/fmt_traits.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\fpu_ctrl.cpp.obj -c D:\\Github\\openal-soft\\core\\fpu_ctrl.cpp",
+  "file": "D:/Github/openal-soft/core/fpu_ctrl.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\helpers.cpp.obj -c D:\\Github\\openal-soft\\core\\helpers.cpp",
+  "file": "D:/Github/openal-soft/core/helpers.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\hrtf.cpp.obj -c D:\\Github\\openal-soft\\core\\hrtf.cpp",
+  "file": "D:/Github/openal-soft/core/hrtf.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\logging.cpp.obj -c D:\\Github\\openal-soft\\core\\logging.cpp",
+  "file": "D:/Github/openal-soft/core/logging.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\mastering.cpp.obj -c D:\\Github\\openal-soft\\core\\mastering.cpp",
+  "file": "D:/Github/openal-soft/core/mastering.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\mixer.cpp.obj -c D:\\Github\\openal-soft\\core\\mixer.cpp",
+  "file": "D:/Github/openal-soft/core/mixer.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\uhjfilter.cpp.obj -c D:\\Github\\openal-soft\\core\\uhjfilter.cpp",
+  "file": "D:/Github/openal-soft/core/uhjfilter.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\uiddefs.cpp.obj -c D:\\Github\\openal-soft\\core\\uiddefs.cpp",
+  "file": "D:/Github/openal-soft/core/uiddefs.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\voice.cpp.obj -c D:\\Github\\openal-soft\\core\\voice.cpp",
+  "file": "D:/Github/openal-soft/core/voice.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\mixer\\mixer_c.cpp.obj -c D:\\Github\\openal-soft\\core\\mixer\\mixer_c.cpp",
+  "file": "D:/Github/openal-soft/core/mixer/mixer_c.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DALC_API=\"\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"\" -DAL_BUILD_LIBRARY -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../include -I. -I../ -I../common -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\OpenAL.dir\\core\\mixer\\mixer_neon.cpp.obj -c D:\\Github\\openal-soft\\core\\mixer\\mixer_neon.cpp",
+  "file": "D:/Github/openal-soft/core/mixer/mixer_neon.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DRESTRICT=__restrict -I. -I../include -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\common.dir\\common\\alcomplex.cpp.obj -c D:\\Github\\openal-soft\\common\\alcomplex.cpp",
+  "file": "D:/Github/openal-soft/common/alcomplex.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DRESTRICT=__restrict -I. -I../include -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\common.dir\\common\\alfstream.cpp.obj -c D:\\Github\\openal-soft\\common\\alfstream.cpp",
+  "file": "D:/Github/openal-soft/common/alfstream.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DRESTRICT=__restrict -I. -I../include -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\common.dir\\common\\almalloc.cpp.obj -c D:\\Github\\openal-soft\\common\\almalloc.cpp",
+  "file": "D:/Github/openal-soft/common/almalloc.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DRESTRICT=__restrict -I. -I../include -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\common.dir\\common\\alstring.cpp.obj -c D:\\Github\\openal-soft\\common\\alstring.cpp",
+  "file": "D:/Github/openal-soft/common/alstring.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DRESTRICT=__restrict -I. -I../include -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\common.dir\\common\\dynload.cpp.obj -c D:\\Github\\openal-soft\\common\\dynload.cpp",
+  "file": "D:/Github/openal-soft/common/dynload.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DRESTRICT=__restrict -I. -I../include -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\common.dir\\common\\polyphase_resampler.cpp.obj -c D:\\Github\\openal-soft\\common\\polyphase_resampler.cpp",
+  "file": "D:/Github/openal-soft/common/polyphase_resampler.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DRESTRICT=__restrict -I. -I../include -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\common.dir\\common\\ringbuffer.cpp.obj -c D:\\Github\\openal-soft\\common\\ringbuffer.cpp",
+  "file": "D:/Github/openal-soft/common/ringbuffer.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DRESTRICT=__restrict -I. -I../include -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\common.dir\\common\\strutils.cpp.obj -c D:\\Github\\openal-soft\\common\\strutils.cpp",
+  "file": "D:/Github/openal-soft/common/strutils.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang++.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DRESTRICT=__restrict -I. -I../include -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles\\common.dir\\common\\threads.cpp.obj -c D:\\Github\\openal-soft\\common\\threads.cpp",
+  "file": "D:/Github/openal-soft/common/threads.cpp"
+},
+{
+  "directory": "D:/Github/openal-soft/build-ohos",
+  "command": "D:\\Huawei\\SDK\\native\\2.1.1.20\\llvm\\bin\\clang.exe --target=aarch64-linux-ohos --gcc-toolchain=D:/Huawei/SDK/native/2.1.1.20/llvm --sysroot=D:/Huawei/SDK/native/2.1.1.20/sysroot -DAL_LIBTYPE_STATIC -DRESTRICT=__restrict -I../common -I../include -g -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles\\ex-common.dir\\examples\\common\\alhelpers.c.obj -c D:\\Github\\openal-soft\\examples\\common\\alhelpers.c",
+  "file": "D:/Github/openal-soft/examples/common/alhelpers.c"
+}
+]
